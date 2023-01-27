@@ -1,0 +1,186 @@
+.container{
+    background-color: #f2f2f2;
+    justify-content: center;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  input[type=text],select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select{
+    width: 80%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+  }
+  /* button{
+    width: 30%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #4caf50;
+  } */
+  .header{
+    width: 95%;
+    background-color: purple;
+    padding: 1px 20px;
+    color: white;
+  }
+.maindiv{
+    display: flex;
+    margin-top: 50px;
+}
+.leftdiv{
+    border: 1px solid yellow;
+    width: 20%;
+    /* height: 500px; */
+}
+.rightdiv{
+    background-color: rgb(229, 225, 221);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid green;
+    width: 80%; 
+   
+  
+}
+#inrightelement{
+    
+    width:250px;
+    height: 460px;
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   
+   
+   
+}
+#inrightelement> div>img{
+    width: 210px;
+    height:250px ;
+    /* border: 1px solid orange; */
+    margin-top: 10px;
+  
+    
+}
+#inrightelement>div:nth-child(2)>h3{
+    /* border: 1px solid gray; */
+    margin-top: -2px;
+}
+#inrightelement>div:nth-child(3)>p{
+   width: 100%;
+   height:65px;
+   /* border: 1px solid red; */
+   margin-top: -5px;
+  
+  
+}
+#inrightelement>div:nth-child(5)>button{
+    width: 100px;
+    height: 25px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+#inrightelement>div:nth-child(5)>button:hover{
+    background-color: rgb(220, 209, 209);
+}
+
+
+#navbar{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(94, 94, 235);
+    display: flex;
+    
+    
+}
+#navbar>div>img{
+    width: 80px;
+    margin-left: 175px;
+    margin-top: 10px;
+   
+}
+#navbar>div>figcaption{
+   font-size: 12px;
+   color: white;
+   margin-left: 160px;
+  margin-top: -7px;
+}
+#navbar>div:nth-child(2)>input{
+    width: 450px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
+#navbar>div:nth-child(3)>button{
+    width: 110px;
+    height:30px ;
+    margin-left: 18px;
+    margin-top: 12px;
+}
+#navbar>div:nth-child(4)>h3{
+    
+    color: white;
+    margin-left: 40px;
+    margin-top: 12px;
+
+}
+#navbar>div:nth-child(5)>h3{
+    color: white;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+#navbar>div:nth-child(6)>h3{
+    color: white;
+    margin-left: 80px;
+    margin-top: 12px
+}
+#homeele{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* justify-content: space-around; */
+    
+}
+#homeele>img{
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
+    margin-left: 70px;
+   
+}
+#topdiv{
+    width: 70%;
+    height: 50px;
+    border: 1px solid green;
+}
+#bottomdiv{
+    width: 70%;
+    border: 1px solid black;
+}
+#bottomdiv>img{
+    width: 150px;
+
+}
